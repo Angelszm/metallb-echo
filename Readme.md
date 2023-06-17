@@ -3,7 +3,7 @@
 
 
 
-
+## But for ARM 64, 
 Manually Applying and Deploying Docker Image, 
 - Clone this Project first: https://github.com/hashicorp/http-echo.git
 
@@ -11,8 +11,6 @@ Manually Applying and Deploying Docker Image,
 https://hub.docker.com/r/cloudangel2020/http-echo-arm64/tags
 
 
-
-## But for ARM 64, 
 When applying Load Balancer, have to replace docker image for ARM Ones. 
 
 ## Instructions for Manually Applying and Deploying Docker Image for ARM64
