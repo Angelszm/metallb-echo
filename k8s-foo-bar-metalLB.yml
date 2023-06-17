@@ -1,0 +1,40 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: foo-app
+  labels:
+    app: http-echo
+spec:
+  containers:
+  - name: foo-app
+    image: cloudangel2020/http-echo-arm64:v3
+    args:
+    - "-text=foo"
+    command:
+    - "/http-echo"
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: bar-app
+  labels:
+    app: http-echo
+spec:
+  containers:
+  - name: bar-app
+    image: cloudangel2020/http-echo-arm64:v3
+    args:
+    - "-text=bar"
+    command:
+    - "/http-echo"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: foo-service
+spec:
+  type: LoadBalancer
+  selector:
+    app: http-echo
+  ports:
+  - port: 5678
