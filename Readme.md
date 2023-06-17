@@ -1,8 +1,5 @@
-## Instructions 
+## Full Instructions 
 - https://kind.sigs.k8s.io/docs/user/loadbalancer/
-
-
-
 
 
 
