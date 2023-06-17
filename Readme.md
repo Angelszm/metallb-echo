@@ -7,8 +7,7 @@
 Manually Applying and Deploying Docker Image, 
 - Clone this Project first: https://github.com/hashicorp/http-echo.git
 
-- Please use this docker image v3 : 
-https://hub.docker.com/r/cloudangel2020/http-echo-arm64/tags
+- If dont want to build and can use other arm image, or  use this docker image v3 : https://hub.docker.com/r/cloudangel2020/http-echo-arm64/tags
 
 
 When applying Load Balancer, have to replace docker image for ARM Ones. 
