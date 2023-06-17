@@ -1,4 +1,4 @@
-## Full Instructions 
+# Full Instructions 
 - https://kind.sigs.k8s.io/docs/user/loadbalancer/
 
 
@@ -15,7 +15,7 @@ https://hub.docker.com/r/cloudangel2020/http-echo-arm64/tags
 ## But for ARM 64, 
 When applying Load Balancer, have to replace docker image for ARM Ones. 
 
-# Instructions for Manually Applying and Deploying Docker Image for ARM64
+## Instructions for Manually Applying and Deploying Docker Image for ARM64
 
 ## Prerequisites
 ```
