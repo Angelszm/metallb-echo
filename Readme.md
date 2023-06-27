@@ -45,7 +45,7 @@ bar
 
 -----------------------------------------------------------------
 ## Optional
-- Manually Applying and Deploying Docker Image, 
+- Manually Applying/Testing and Deploying Docker Image, 
 - Clone this Project first: https://github.com/hashicorp/http-echo.git
 
 - If dont want to build and can use other arm image, or  use this docker image v3 : https://hub.docker.com/r/cloudangel2020/http-echo-arm64/tags
