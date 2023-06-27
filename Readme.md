@@ -20,8 +20,14 @@
 ```
 
 
+### Testing Outputs: 
+```
+for _ in {1..10}; do
+  curl ${LB_IP}:5678
+done
+```
 
-
+-----------------------------------------------------------------
 Manually Applying and Deploying Docker Image, 
 - Clone this Project first: https://github.com/hashicorp/http-echo.git
 
