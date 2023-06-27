@@ -4,6 +4,7 @@
 
 
 ## But for ARM 64, 
+- Have to replace for this using the Load Balancer Stuff: https://github.com/Angelszm/metallb-echo/blob/main/Readme.md
 Using the currnet Metallb File for ARM 64: 
 - For k8s File : 
 ```
