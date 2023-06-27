@@ -24,9 +24,9 @@ spec:
   - name: bar-app
     image: cloudangel2020/http-echo-arm64:v3
     args:
-    - "-text=bar"
+     - "-text=bar"
     command:
-    - "/http-echo"
+     - "/http-echo"
 ---
 apiVersion: v1
 kind: Service
