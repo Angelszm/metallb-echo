@@ -22,11 +22,25 @@
 
 ### Testing Outputs: 
 ```
+LB_IP=$(kubectl get svc/foo-service -o=jsonpath='{.status.loadBalancer.ingress[0].ip}')
 for _ in {1..10}; do
   curl ${LB_IP}:5678
 done
 ```
 
+### Expected Result: 
+```
+foo
+bar
+foo
+bar
+foo
+bar
+foo
+bar
+foo
+bar
+```
 -----------------------------------------------------------------
 Manually Applying and Deploying Docker Image, 
 - Clone this Project first: https://github.com/hashicorp/http-echo.git
