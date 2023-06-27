@@ -4,6 +4,16 @@
 
 
 ## But for ARM 64, 
+Using the currnet Metallb File for ARM 64: 
+- For k8s File : 
+```
+!  kubectl apply -f https://kind.sigs.k8s.io/examples/loadbalancer/usage.yaml
+or Can use this : https://raw.githubusercontent.com/Angelszm/metallb-echo/main/k8s-foo-bar-metalLB.yaml
+- So, Apply the contents will be
+  - kubectl apply -f https://raw.githubusercontent.com/Angelszm/metallb-echo/main/k8s-foo-bar-metalLB.yaml
+```
+
+
 Manually Applying and Deploying Docker Image, 
 - Clone this Project first: https://github.com/hashicorp/http-echo.git
 
@@ -26,5 +36,7 @@ When applying Load Balancer, have to replace docker image for ARM Ones.
 - For k8s File : 
 ```
 !  kubectl apply -f https://kind.sigs.k8s.io/examples/loadbalancer/usage.yaml
-or Can use this : https://github.com/Angelszm/metallb-echo/blob/main/k8s-foo-bar-metalLB.yml
+or Can use this : https://raw.githubusercontent.com/Angelszm/metallb-echo/main/k8s-foo-bar-metalLB.yaml
+- So, Apply the contents will be
+  - kubectl apply -f https://raw.githubusercontent.com/Angelszm/metallb-echo/main/k8s-foo-bar-metalLB.yaml
 ```
